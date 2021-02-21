@@ -63,7 +63,7 @@ print()
 # Exponentiation operation
 exponentiation = a ** b
 
-print("On exponention of a to the power b, we get", exponentiation)
+print("On exponentiation of a to the power b, we get", exponentiation)
 print()
 
 # Exponentiation of 2 ** 3 means 2 * 2 * 2 = 8.
