@@ -12,6 +12,6 @@ divisor = 4
 quotient = dividend // divisor
 remainder = dividend - quotient * divisor
 
-print ("On the dividing 37 with 4 the result is as follows:")
-print ("Quotient =", quotient )
-print ("Remainder =", remainder )
+print ("On dividing 37 with 4 the result is as follows:")
+print ("Quotient =", quotient)
+print ("Remainder =", remainder)
