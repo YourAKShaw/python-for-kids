@@ -67,3 +67,19 @@ print("On exponentiation of a to the power b, we get", exponentiation)
 print()
 
 # Exponentiation of 2 ** 3 means 2 * 2 * 2 = 8.
+
+# 2 ^ 3 and 2 ** 3 means the same thing in 
+# general mathematical presentation.
+# But, in Python, 2 ^ 3 and 2 ** 3, have two different meanings. 
+
+# 2 ** 2 is also called: 
+# -> '2 to the power 2', or 
+# -> '2 square', or 
+# -> 'square of 2'.
+
+# 2 ** 3 is also called: 
+# -> '2 to the power 3', or 
+# -> '2 cube', or 
+# -> 'cube of 2'. 
+
+# 2 ** 4 is also called '2 to the power 4', and so on.
