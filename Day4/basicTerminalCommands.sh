@@ -15,3 +15,9 @@ history
 
 # Delete file.
 rm fileName.py
+
+# Dump file contents on the screen.
+cat fileName.py
+
+# Rename file.
+mv oldFileName.py newFileName.py
