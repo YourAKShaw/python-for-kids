@@ -60,6 +60,17 @@ print("On dividing 17 with 5, the quotient is", quotient)
 print("On dividing 17 with 5, the remainder is", remainder)
 print()
 
+# Modulus operation
+remainder = dividend % divisor
+print("On dividing 17 with 5, the remainder is", remainder)
+print()
+
+# The '%' is known as the modulus operator (MOD or mod in short).
+# It is used for calculating the remainder.
+# Hence the statements below are equivalent: 
+# -> remainder = dividend - quotient * divisor
+# -> remainder = dividend % divisor
+
 # Exponentiation operation
 exponentiation = a ** b
 

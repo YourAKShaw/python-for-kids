@@ -6,7 +6,13 @@ divisor = int(input("divisor = "))
 print()
 
 quotient = dividend // divisor
-remainder = dividend - quotient * divisor
+remainder = dividend % divisor
+
+# The '%' is known as the modulus operator (MOD or mod in short).
+# It is used for calculating the remainder.
+# Hence the statements below are equivalent: 
+# -> remainder = dividend - quotient * divisor
+# -> remainder = dividend % divisor
 
 print ("On dividing", dividend, "with", divisor, "the result is as follows:")
 print ("Quotient =", quotient)
