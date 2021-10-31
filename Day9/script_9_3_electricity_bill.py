@@ -16,6 +16,6 @@ elif (units_consumed >= 101 and units_consumed <= 200):
 elif (units_consumed >= 201 and units_consumed <= 300):
     bill = 100 * 10 + 100 * 15 + (units_consumed - 200) * 20
 elif (units_consumed >= 301):
-    bill = 100 * 10 + 100 * 15 + 100 * 20 + (units_consumed - 300) * 20
+    bill = 100 * 10 + 100 * 15 + 100 * 20 + (units_consumed - 300) * 25
 
 print("The electricity bill is: ", bill)
