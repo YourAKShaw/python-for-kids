@@ -16,6 +16,28 @@ def perform_addition():
     print("The sum of the two numbers is: ", num1 + num2)
     print()
 
+def perform_subtraction():
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    print()
+    print("The difference of the two numbers is: ", num1 - num2)
+    print()
+
+def perform_multiplication():
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    print()
+    print("The product of the two numbers is: ", num1 * num2)
+    print()
+
+def perform_division():
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    print()
+    print("The quotient of the two numbers is: ", num1 // num2)
+    print("The remainder of the two numbers is: ", num1 % num2)
+    print()
+
 def calculator():
     
     while True:
@@ -32,11 +54,11 @@ def calculator():
         if (choice == 1):
             perform_addition()
         elif (choice == 2):
-            pass
+            perform_subtraction()
         elif (choice == 3):
-            pass
+            perform_multiplication()
         elif (choice == 4):
-            pass
+            perform_division()
         elif (choice == 5):
             print("Thank you for using the calculator!")
             print()
