@@ -24,9 +24,3 @@ if __name__ == "__main__":
         print("n should be a positive value")
     else:
         print_pattern(n)
-
-
-# -------------------------------------
-'''
-
-'''
