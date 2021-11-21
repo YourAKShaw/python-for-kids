@@ -33,3 +33,6 @@ print('list(range(10, 0, -1))', l)
 
 l = list(range(1, 6))
 print('list(range(1, 6))', l)
+
+l = list(range(1, 6, 2))
+print('list(range(1, 6, 2))', l)
