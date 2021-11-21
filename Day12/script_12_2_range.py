@@ -16,6 +16,9 @@ y - is the upper bound or lower bound, greater than the highest value in the ran
 z - is the step value, default value is 1 
 
 Other forms of using range is range(x, y) and range(y)
+
+range(y) is the same as range(0, y, 1)
+range(x, y) is the same as range(x, y, 1)
 '''
 
 l = list(range(0, 10, 1))
