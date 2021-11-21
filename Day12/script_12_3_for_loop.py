@@ -4,7 +4,6 @@ l = list(range(10))
 # for each item in the list
 for i in l:
     print(i)
-
 print()
 
 l = ['Red', 'Green', 'Blue']
