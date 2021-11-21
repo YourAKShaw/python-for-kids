@@ -24,3 +24,10 @@ if __name__ == "__main__":
         print("n should be a positive value")
     else:
         print_pattern(n)
+
+'''
+print() is equivalent to print(end = "\n")
+print(j) is equivalent to print(j, end = "\n")
+
+That's the reason why we chose to use print(j, end = "\t") instead of print(j)
+'''
