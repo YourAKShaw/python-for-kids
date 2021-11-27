@@ -1,17 +1,20 @@
 # For n = 5, print the following pattern:
 '''
 *
-*   *
-*   *   *
-*   *   *   *
-*   *   *   *   *
+* *
+* * *
+* * * *
+* * * * *
 '''
 # The pattern should grow for various values of n, and should be symmetrical.
 # n should be a positive value.
 
 
 def print_pattern(n):
-    pass
+    for i in range(n):
+        for j in range(i + 1):
+            print("*", end=" ")
+        print()
 
 
 # driver code
