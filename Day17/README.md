@@ -1,0 +1,5 @@
+# NOTES
+
+- **floor** and **ceil** are two bounds _(upper and lower)_ of a number with a decimal point.
+- For example, if a number is `3.333`, then it's **floor** value is `3` _(lower bound)_ and it's **ceil** value is `4` _(upper bound)_.
+- In case the number is `-3.333`, then it's **floor** value is `-4` _(lower bound)_ and it's **ceil** value is `-3` _(upper bound)_.
