@@ -6,3 +6,8 @@
 - `a % b` is evaluated as `a - (b * (a // b))`
   - The above statement can easily be understood in terms of the formula for finding remainder on division
   - We can state `a` as the **dividend**, `b` as the **divisor** and `a // b` as the **quotient**.
+- Since `True` is `1` and `False` is `0`, they can be added.
+  ```py
+  a = True + True   # stores 2
+  b = True + False  # stores 1
+  ```
