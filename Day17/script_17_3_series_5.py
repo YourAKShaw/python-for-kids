@@ -2,9 +2,9 @@
 
 # Write a program that prints the above series and calculates the sum of all the terms.
 
-# t(i) = ?
+# t(i) = i ** 3 - 2
 def formula(i):
-    pass
+    return i ** 3 - 2
 
 if __name__ == "__main__":
     n = int(input("Enter the number of terms: "))
@@ -22,7 +22,7 @@ if __name__ == "__main__":
         
 
 '''
-The formula for this series is t(i) = ?, where t is the term, and i is the position of the term.
+The formula for this series is t(i) = i ** 3 - 2, where t is the term, and i is the position of the term.
 
 For example,
 t(1) = -1
