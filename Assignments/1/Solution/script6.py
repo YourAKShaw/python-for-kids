@@ -18,21 +18,27 @@ charge = 0
 if (units < 50):
     charge = 0
 elif (units >= 50 and units <= 100):
-    charge = units * 1
+    charge = 50 * 0 + (units - 50) * 1
 elif (units >= 100 and units <= 200):
-    charge = units * 2.5
+    charge = 50 * 0 + 50 * 1 + (units - 100) * 2.5
 elif (units >= 200 and units <= 400):
-    charge = units * 4
+    charge = 50 * 0 + 50 * 1 + 100 * 2.5 + (units - 200) * 4
 elif (units >= 400 and units <= 800):
-    charge = units * 6
+    charge = 50 * 0 + 50 * 1 + 100 * 2.5 + 200 * 4 + (units - 400) * 6
 elif (units >= 800):
-    charge = units * 8
+    charge = 50 * 0 + 50 * 1 + 100 * 2.5 + \
+        200 * 4 + 400 * 6 + (units - 400) * 8
 
 meter_rent = 700
 
 gst = units * 0.02
 
-print("\nCharge: ", charge)
-print("Meter rent: ", meter_rent)
-print("GST: ", gst)
-print("Total: ", charge + meter_rent + gst)
+print("Charge:", charge)
+
+print("Meter rent:", meter_rent)
+
+print("GST:", gst)
+
+print("Total:", charge + meter_rent + gst)
+
+# The '\' character is used at the end when we need to type the rest of the line in the next line.
