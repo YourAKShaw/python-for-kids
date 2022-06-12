@@ -1,7 +1,7 @@
-# infinit while loop
+# infinite while loop
 
 '''
-An infinit while loop is a loop that never ends.
+An infinite while loop is a loop that never ends.
 '''
 
 while True:
