@@ -17,9 +17,27 @@
     Basic types - int, float, complex, bool, string, bytes
 
     Container types - list, tuple, set, dict
+
+    ```python
+    # list
+    [1, 2, 3, 4] 
+
+    # tuple
+    (1, 2, 3, 4)
+
+    # set
+    {1, 2, 3, 4}
+
+    # dict
+    {
+        1: "One",
+        2: "Two",
+        3: "Three"
+    }
+    ```
     
     User-defined types - class
-    
+
 - Type of particular data can be checked using a function called `type()` as shown below:
 
     ```python
