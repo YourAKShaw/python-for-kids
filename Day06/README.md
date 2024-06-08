@@ -15,8 +15,11 @@
 - Python supports 3 categories of data types:
     
     Basic types - int, float, complex, bool, string, bytes
+
     Container types - list, tuple, set, dict
+    
     User-defined types - class
+    
 - Type of particular data can be checked using a function called `type()` as shown below:
 
     ```python
